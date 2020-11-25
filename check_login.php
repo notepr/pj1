@@ -1,7 +1,7 @@
 <?php
 
 require_once "code/database/connect_dtb.php";
-$cookie_name = "_old_bkacad_xyz";
+$cookie_name = "_old_notepr_xyz";
 if (isset($_COOKIE[$cookie_name])) {
     $cookie = mysqli_real_escape_string($connect, $_COOKIE[$cookie_name]);
     $sql    = "SELECT * from admin where random_key='${cookie}'";
