@@ -1,5 +1,5 @@
 <?php  
-	$pass = "1";
+	$pass = "bkacad17";
 	$pass = sha1($pass);
 	$pass = md5($pass)."check";
 	$pass = sha1($pass);

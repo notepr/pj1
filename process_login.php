@@ -33,5 +33,5 @@ if ($dem == 2) {
 } else {
     header("location:index.php");
 }
-; // var_dump($_COOKIE);; // echo $_COOKIE['_old.notepr.xyz'];; // echo htmlspecialchars($_COOKIE[".old.notepr.xyz"]);
+; // var_dump($_COOKIE);; // echo $_COOKIE['_bkacad_xyz'];; // echo htmlspecialchars($_COOKIE[".old.notepr.xyz"]);
 ?>
